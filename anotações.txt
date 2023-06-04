@@ -1,0 +1,12 @@
+O arquivo ".htaccess" é um arquivo de configuração usado pelos servidores web Apache para substituir 
+determinadas configurações do servidor por diretório. Ele permite que você modifique o comportamento do seu servidor web 
+sem editar diretamente o arquivo de configuração do servidor principal.
+
+Nesse projeto foi utilizado para direcionar o usuario para pahina principal (Home), caso ele digite algum diretorio
+que não exista. O comando utilizado foi
+
+RewriteEngine On -> Estamos forçando o modulo de reescrita para ON.
+RewriteCond %{REQUEST_FILENAME} !f -> Habilitando o reconhecimento de todos os arquivos
+RewriteCond %{REQUEST_FILENAME} !d -> Habilitando o reconhecimento de todos os diretorios
+
+RewriteRule ^(.*)$ index.php?router=$1 [QSA,L]
