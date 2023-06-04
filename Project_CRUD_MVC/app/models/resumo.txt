@@ -1,0 +1,5 @@
+O modelo é responsável por representar os dados e a lógica de negócios do aplicativo. 
+Ele manipula a interação com o banco de dados ou outras fontes de dados, 
+validação dos dados de entrada e a execução de operações relacionadas ao domínio. 
+O modelo é independente da interface do usuário e das preocupações de apresentação, 
+o que permite que ele seja reutilizado em diferentes contextos.

@@ -1,0 +1,23 @@
+{
+    "name": "projeto/crud",
+    "description": "Projeto CRUD, MVC em PHP e Composer.",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/",
+            "core\\":"core/"
+        },
+        "files":[
+            "config/config.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Leonardo Augusto"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.0.26"
+    }
+}
