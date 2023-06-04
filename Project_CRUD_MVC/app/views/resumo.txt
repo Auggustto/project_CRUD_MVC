@@ -1,0 +1,4 @@
+A visão é responsável por apresentar a informação ao usuário. Ela recebe dados do modelo e os exibe de maneira adequada, 
+normalmente como uma interface de usuário interativa. A visão é responsável pela formatação e organização dos dados para 
+apresentação, mas não deve conter lógica de negócios complexa. Em muitos casos, existem várias visualizações para uma mesma 
+informação, permitindo a adaptação a diferentes dispositivos ou requisitos de apresentação.

@@ -1,0 +1,4 @@
+O controlador é responsável por receber as interações do usuário e controlar o fluxo de dados entre o models e a views. 
+Ele atua como intermediário entre a interface do usuário e a lógica de negócios, recebendo as solicitações da visão, 
+processando as informações no modelo correspondente e atualizando a visão com os resultados. 
+O controlador também pode executar validações adicionais ou realizar ações específicas com base nas interações do usuário.
